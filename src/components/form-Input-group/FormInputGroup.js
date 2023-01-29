@@ -1,5 +1,4 @@
 import React from "react";
-import "./FormInputGroup.css";
 
 const FormInputGroup = ({ value, setData, error, label, name, max }) => {
   return (

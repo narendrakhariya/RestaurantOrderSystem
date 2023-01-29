@@ -1,5 +1,4 @@
 import React from "react";
-import "./FormSelectGroup.css";
 
 const FormSelectGroup = ({ items, value, setData, error, label, name }) => {
   return (
