@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  padding: 25px 30px;
+  border-radius: 8px;
+  background-color: #fff;
+  max-width: 375px;
+  max-height: 500px;
+  box-shadow: 3px 4px 4px rgba(83, 100, 255, 0.32);
+}
+
+select,
+input {
+  padding: 7px;
+  margin: 6px 0px;
+  border-radius: 3px;
+  border: 1px solid gray;
+}
+
+label {
+  margin: 3px 0px;
+}
+
+span {
+  display: block;
+  font-size: 12px;
+  padding: 3px;
+  color: red;
+  word-wrap: break-word;
+}
+
+.formControlGroup{
+  display: flex;
+  flex-direction: column;
+}

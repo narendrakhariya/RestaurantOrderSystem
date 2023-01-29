@@ -1,0 +1,14 @@
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.column {
+  margin: 10px 0px;
+}
+
+.left { 
+  flex: 40%;
+}
+.right {
+  flex: 60%;
+}

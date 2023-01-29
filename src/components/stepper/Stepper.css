@@ -1,0 +1,18 @@
+.stepWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+}
+
+.step {
+  padding: 8px 18px;
+  background-color: white;
+  color: black;
+  border: 1.3px solid gray;
+  box-shadow: 3px 3px 3px gray
+}
+
+.selected .step {
+  color: white;
+  background-color: #0563b4 ;
+}
